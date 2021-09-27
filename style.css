@@ -1,0 +1,179 @@
+.html,
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Red Hat Display";
+}
+
+.background {
+  position: relative;
+  background-color: #e0e8ff;
+  background-image: url("./images//pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 570px) {
+  .background {
+    background-image: url("./images//pattern-background-mobile.svg");
+  }
+}
+
+.background img {
+  width: 100%;
+  margin-bottom: auto;
+  border-radius: 15px 15px 0 0;
+}
+
+.card-wrap {
+  position: absolute;
+  max-width: 400px;
+  border-radius: 15px;
+  background: #fff;
+  z-index: 2;
+  height: 630px;
+}
+
+.card-wrap .card-info {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.card-wrap .card-info h1 {
+  font-weight: 900;
+  font-size: 25px;
+  margin-bottom: 0;
+}
+
+.card-wrap .card-info p {
+  margin-bottom: 0;
+  text-align: center;
+  color: #8d8d8d;
+}
+
+.card-wrap .plan-info {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #f5f7ff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.card-wrap .plan-info .img {
+  width: 50px;
+}
+
+.card-wrap .plan-info .img img {
+  width: 100%;
+}
+
+.card-wrap .plan-info a {
+  color: #3829e0;
+  font-weight: 900;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.card-wrap .plan-info a:hover {
+  color: rgba(56, 41, 224, 0.623);
+}
+
+.card-wrap .plan-info .annual {
+  margin-right: 35px;
+}
+
+.card-wrap .plan-info .annual h3 {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.card-wrap .plan-info .annual p {
+  margin-top: 0;
+  color: #8d8d8d;
+}
+
+.card-wrap .card-actions {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+
+.card-wrap .card-actions button {
+  width: 80%;
+  padding: 15px;
+  border: none;
+  border-radius: 15px;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.card-wrap .card-actions button:first-of-type {
+  background-color: #3829e0;
+  color: white;
+  -webkit-box-shadow: 0px 15px 21px 5px #e0e8ff;
+          box-shadow: 0px 15px 21px 5px #e0e8ff;
+}
+
+.card-wrap .card-actions button:first-of-type:active, .card-wrap .card-actions button:first-of-type:hover {
+  background-color: rgba(56, 41, 224, 0.623);
+}
+
+.card-wrap .card-actions button:last-of-type {
+  background-color: transparent;
+  color: #7280a7;
+}
+
+.card-wrap .card-actions button:last-of-type:hover {
+  color: #1f2f56;
+}
+/*# sourceMappingURL=style.css.map */

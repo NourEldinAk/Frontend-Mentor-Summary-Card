@@ -16,7 +16,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: https://noureldinak.github.io/Frontend-Mentor-Summary-Card-/
+- Live Site URL: https://noureldinak.github.io/Frontend-Mentor-Summary-Card/
 
 
 ### Built with
